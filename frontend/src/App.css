@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.role-selector {
+  font-size: 1rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.case-creation-section, .case-list-section, .case-details-section {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.case-creation-section input {
+  display: block;
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.case-list {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.case-item {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.case-item:hover {
+  background-color: #f0f0f0;
+}
+
+.chat-room {
+  margin-top: 20px;
+}
+
+.message-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.message-input input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.messages-container {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: left;
+}
+
+.message {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.role-ADMIN {
+  background-color: #ffcdd2; /* Light Red */
+}
+
+.role-VET {
+  background-color: #c8e6c9; /* Light Green */
+}
+
+.role-COORDINATOR {
+  background-color: #bbdefb; /* Light Blue */
+}
