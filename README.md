@@ -46,7 +46,7 @@ Why WildGuard?
 **AI Integration:** External Model API
 
 
-Quick Start with Docker
+## Quick Start with Docker
 ```
 # Clone the repository
 git clone https://github.com/yourusername/wildguard.git
@@ -59,7 +59,7 @@ docker-compose up -d
 open http://localhost:8080
 ```
 
-Manual Installation
+## Manual Installation
 1. Database Setup
 ```
 # Create database
@@ -150,7 +150,7 @@ POST /api/auth/refresh-token
 ```
 
 
-🤝 Contributing
+## Contributing
 We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help makes WildGuard better.
 Getting Started
 
@@ -160,7 +160,7 @@ Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
-Development Guidelines
+## Development Guidelines
 
 Follow existing code style and conventions
 Write unit tests for new features
@@ -175,7 +175,7 @@ JavaScript: ESLint configuration provided
 SQL: Uppercase keywords, snake_case for identifiers
 
 
-🐛 Bug Reports & Feature Requests
+## Bug Reports & Feature Requests
 Found a bug or have an idea for improvement?
 
 Bug Reports: Open an issue
@@ -189,10 +189,10 @@ Environment details (OS, browser, versions)
 Screenshots if applicable
 
 
-📄 License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## Acknowledgments
 
 Wildlife Rescue Organizations who provided valuable feedback during development
 Open Source Community for the amazing tools and libraries
@@ -200,7 +200,7 @@ Contributors who dedicate their time to improving this platform
 Conservation Technologists pioneering the field of AI for wildlife
 
 
-📞 Contact & Support
+## Contact & Support
 
 Project Maintainer: Thirukaalathessvarar S (eswar2005s@gmail.com)
 Documentation: Wiki
